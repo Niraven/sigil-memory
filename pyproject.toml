@@ -40,10 +40,10 @@ dev = ["pytest>=7.0", "pytest-benchmark", "fastembed>=0.3.0"]
 sigil = "sigil.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/niam-amor/sigil-memory"
-Repository = "https://github.com/niam-amor/sigil-memory"
-Issues = "https://github.com/niam-amor/sigil-memory/issues"
-Changelog = "https://github.com/niam-amor/sigil-memory/releases"
+Homepage = "https://github.com/Niraven/sigil-memory"
+Repository = "https://github.com/Niraven/sigil-memory"
+Issues = "https://github.com/Niraven/sigil-memory/issues"
+Changelog = "https://github.com/Niraven/sigil-memory/releases"
 
 [tool.setuptools.packages.find]
 include = ["sigil*"]
