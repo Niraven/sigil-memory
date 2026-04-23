@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "niam-sigil"
+version = "0.2.0"
+description = "The cognitive backbone for multi-agent AI systems. Sub-millisecond memory, zero cloud, event-driven sync."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    {name = "Niam Amor", email = "niam@zo.computer"},
+]
+keywords = [
+    "ai", "memory", "agents", "llm", "knowledge-graph", "orchestration",
+    "multi-agent", "cognitive-architecture", "ai-memory", "agent-memory",
+    "sqlite", "local-first", "zero-cloud", "persona", "swarm",
+    "proactive-knowledge", "entity-linking", "context-compression"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+embeddings = ["fastembed>=0.3.0"]
+all = ["fastembed>=0.3.0"]
+dev = ["pytest>=7.0", "pytest-benchmark", "fastembed>=0.3.0"]
+
+[project.scripts]
+sigil = "sigil.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/niam-amor/sigil-memory"
+Repository = "https://github.com/niam-amor/sigil-memory"
+Issues = "https://github.com/niam-amor/sigil-memory/issues"
+Changelog = "https://github.com/niam-amor/sigil-memory/releases"
+
+[tool.setuptools.packages.find]
+include = ["sigil*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
