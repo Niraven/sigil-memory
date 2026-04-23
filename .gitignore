@@ -1,0 +1,37 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Databases (don't commit memory files)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Test/benchmark artifacts
+.pytest_cache/
+.benchmarks/
+htmlcov/
+.coverage
+
+# Event logs
+*.jsonl
+
+# Environment
+.env
+.env.local
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
