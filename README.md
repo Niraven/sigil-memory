@@ -1,3 +1,16 @@
+> [!IMPORTANT]
+> **Sigil has evolved into [Myelin](https://github.com/Niraven/myelin).**
+>
+> Sigil was the broad research prototype: local memory, knowledge graphs, personas, orchestration, compression, and multi-agent coordination in one package.
+>
+> Myelin is the focused successor: **procedural memory for AI agents**. It watches agents work, clusters repeated sessions, aligns action sequences, and promotes learned procedures through MCP.
+>
+> New work should start with Myelin:
+>
+> - Repository: https://github.com/Niraven/myelin
+> - Lineage: https://github.com/Niraven/myelin/blob/main/docs/LINEAGE.md
+> - Comparison: https://github.com/Niraven/myelin/blob/main/docs/COMPARISONS.md
+
 <p align="center">
   <img src="https://img.shields.io/badge/sigil-v0.2.0-8B5CF6?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQxIDAtOC0zLjU5LTgtOHMzLjU5LTggOC04IDggMy41OSA4IDgtMy41OSA4LTggOHptLTEtMTNoMnY2aC0yem0wIDhoMnYyaC0yeiIvPjwvc3ZnPg==" alt="Sigil v0.2.0">
 </p>
